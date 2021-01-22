@@ -1,1 +1,1 @@
-web: ./waved && uvicorn bean_counter:main --host 0.0.0.0 --port 10101
+web: ./waved && uvicorn bean_counter:main --host 0.0.0.0 --port $PORT
